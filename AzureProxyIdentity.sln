@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureProxyIdentity", "src\AzureProxyIdentity.csproj", "{59FB58BC-B76C-41B7-8F10-4B84ECF02836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureProxyIdentity.Tests", "tests\AzureAzureProxyIdentity.Tests.csproj", "{29E5EBA8-743A-46F3-ACC4-69FE77FAD58D}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {59FB58BC-B76C-41B7-8F10-4B84ECF02836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {59FB58BC-B76C-41B7-8F10-4B84ECF02836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {59FB58BC-B76C-41B7-8F10-4B84ECF02836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {59FB58BC-B76C-41B7-8F10-4B84ECF02836}.Release|Any CPU.Build.0 = Release|Any CPU
+        {29E5EBA8-743A-46F3-ACC4-69FE77FAD58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {29E5EBA8-743A-46F3-ACC4-69FE77FAD58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {29E5EBA8-743A-46F3-ACC4-69FE77FAD58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {29E5EBA8-743A-46F3-ACC4-69FE77FAD58D}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(NestedProjects) = preSolution
+        {29E5EBA8-743A-46F3-ACC4-69FE77FAD58D} = {41505B2F-F930-49FF-B932-88ECD64D4479}
+    EndGlobalSection
+EndGlobal
